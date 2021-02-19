@@ -22,7 +22,7 @@
 ### App Walkthough GIF
 
 
-<img src="https://imgur.com/a/TViyWYw" width=250><br>
+<img src='WalktroughFlixtser2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### Notes
 
