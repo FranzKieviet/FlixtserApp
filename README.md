@@ -1,43 +1,33 @@
-# Project 1 - *Flixtser*
-
-**Flixtser** is an android app that allows that allows users to see a list of all the movies that are playing in theaters right now.
-
-Submitted by: **Franz Kieviet**
-
-Time spent: **5** hours spent in total
-
-## User Stories
-
-The following **required** functionality is completed:
-
-* [X] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API. (10 points)
 
 
-## Video Walkthrough
+## Flix Part 2
 
-Here's a walkthrough of implemented user stories:
+### User Stories
 
-<img src='WalktroughFlixtser.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+#### REQUIRED (10pts)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+- [X] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [X] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
 
-## Notes
+#### BONUS
 
-I had some issues working in the design section as the buttons I would add would only stay in the top left corner no matter how I tried to move it, but I found out how to manually move it but I found where they mistake was.
-I had to fix my relative layout to get it to work properly. I also had issues where I was by mistake with some of the other UI components.
+- [ ] Implement a shared element transition when user clicks into the details of a movie (1 point).
+- [ ] Trailers for popular movies are played automatically when the movie is selected (1 point).
+  - [ ] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
+  - [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
+- [ ] Add a play icon overlay to popular movies to indicate that the movie can be played (1 point).
+- [ ] Apply data binding for views to help remove boilerplate code. (1 point)
+- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
 
-## License
+### App Walkthough GIF
 
-    Copyright [2021] [Franz Kieviet]
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+<img src="GIF_URL_HERE" width=250><br>
 
-        http://www.apache.org/licenses/LICENSE-2.0
+### Notes
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Describe any challenges encountered while building the app.
+
+## Open-source libraries used
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
